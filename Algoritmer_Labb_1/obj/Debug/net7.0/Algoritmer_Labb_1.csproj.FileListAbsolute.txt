@@ -1,0 +1,14 @@
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/bin/Debug/net7.0/Algoritmer_Labb_1
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/bin/Debug/net7.0/Algoritmer_Labb_1.deps.json
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/bin/Debug/net7.0/Algoritmer_Labb_1.runtimeconfig.json
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/bin/Debug/net7.0/Algoritmer_Labb_1.dll
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/bin/Debug/net7.0/Algoritmer_Labb_1.pdb
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/obj/Debug/net7.0/Algoritmer_Labb_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/obj/Debug/net7.0/Algoritmer_Labb_1.AssemblyInfoInputs.cache
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/obj/Debug/net7.0/Algoritmer_Labb_1.AssemblyInfo.cs
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/obj/Debug/net7.0/Algoritmer_Labb_1.csproj.CoreCompileInputs.cache
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/obj/Debug/net7.0/Algoritmer_Labb_1.dll
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/obj/Debug/net7.0/refint/Algoritmer_Labb_1.dll
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/obj/Debug/net7.0/Algoritmer_Labb_1.pdb
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/obj/Debug/net7.0/Algoritmer_Labb_1.genruntimeconfig.cache
+/Users/axellofgren/Projects/Algoritmer Labb 1/Algoritmer_Labb_1/obj/Debug/net7.0/ref/Algoritmer_Labb_1.dll
