@@ -48,9 +48,9 @@ public class CalculateMaxSum
         return maxInteger - minInteger;
     }
     
-    public static void TestMaxSumAlgorithmV1(int arrayLength)
+    public static void TestMaxSumAlgorithmV1(long arrayLength)
     {
-        // Skapar array med slumpmässiga siffror 0-100
+        // Skapar array med slumpmässiga siffror -100-100
         int[] randomNumbers = NumberGenerator.GenerateRandomNumbers(arrayLength, -100, 100);
 
         Stopwatch stopwatch = new Stopwatch();
@@ -59,11 +59,11 @@ public class CalculateMaxSum
         stopwatch.Stop();
     
         Console.WriteLine($"The max sum of integers in the array was {sum}");
-        Console.WriteLine($"Time of executing this function with an array of length {arrayLength}: {stopwatch.Elapsed.TotalMilliseconds} ms");
-        SaveResults.SaveResultsToCSV(stopwatch.Elapsed.TotalMilliseconds, arrayLength, "CalculateMaxSumV1");
+        Console.WriteLine($"Time of executing this function with an array of length {arrayLength}: {stopwatch.ElapsedMilliseconds} ms");
+        SaveResults.SaveResultsToCSV(stopwatch.ElapsedMilliseconds, arrayLength, "CalculateMaxSumV1");
     }
     
-    public static void TestMaxSumAlgorithmV2(int arrayLength)
+    public static void TestMaxSumAlgorithmV2(long arrayLength)
     {
         // Skapar array med slumpmässiga siffror -100 - 100
         int[] randomNumbers = NumberGenerator.GenerateRandomNumbers(arrayLength, -100, 100);
@@ -74,7 +74,7 @@ public class CalculateMaxSum
         stopwatch.Stop();
     
         Console.WriteLine($"The max sum of integers in the array was {sum}");
-        Console.WriteLine($"Time of executing this function with an array of length {arrayLength}: {stopwatch.Elapsed.TotalMilliseconds} ms");
-        SaveResults.SaveResultsToCSV(stopwatch.Elapsed.TotalMilliseconds, arrayLength, "CalculateMaxSumV2");
+        Console.WriteLine($"Time of executing this function with an array of length {arrayLength}: {stopwatch.ElapsedMilliseconds} ms");
+        SaveResults.SaveResultsToCSV(stopwatch.ElapsedMilliseconds, arrayLength, "CalculateMaxSumV2");
     }
 }

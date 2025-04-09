@@ -2,7 +2,7 @@ namespace Algoritmer_Labb_1;
 
 public class NumberGenerator
 {
-    public static int[] GenerateRandomNumbers(int length, int startRange, int endRange)
+    public static int[] GenerateRandomNumbers(long length, int startRange, int endRange)
     {
         int[] newArray = new int[length];
         Random random = new Random();

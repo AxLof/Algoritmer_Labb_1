@@ -1,16 +1,16 @@
 ﻿using Algoritmer_Labb_1;
 
-for (int i = 100; i < 1000000000; i*=10)
+for (long i = 100; i < 100000000; i*=2)
 {
     NumberCounter.TestFindDuplicates(5, i);
 }
 
-for (int i = 100; i < 1000000; i*=10)
+for (long i = 100; i < 100000; i*=2)
 {
     CalculateMaxSum.TestMaxSumAlgorithmV1(i);
 }
 
-for (int i = 100; i < 1000000; i*=10)
+for (long i = 100; i < 100000000; i*=2)
 {
     CalculateMaxSum.TestMaxSumAlgorithmV2(i);
 }

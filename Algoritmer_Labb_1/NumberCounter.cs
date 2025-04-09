@@ -23,9 +23,9 @@ public class NumberCounter
         }
         stopwatch.Stop();
         
-        return (dict[targetNumber], stopwatch.Elapsed.TotalMilliseconds);
+        return (dict[targetNumber], stopwatch.ElapsedMilliseconds);
     }
-    public static void TestFindDuplicates(int targetNumber, int arrayLength)
+    public static void TestFindDuplicates(int targetNumber, long arrayLength)
     {
         // Skapar array med slumpmässiga siffror 0-9
         int[] randomNumbers = NumberGenerator.GenerateRandomNumbers(arrayLength, 0, 9);

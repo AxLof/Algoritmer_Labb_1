@@ -2,7 +2,7 @@ namespace Algoritmer_Labb_1;
 
 public class SaveResults
 {
-    public static void SaveResultsToCSV(double executionTime, int arrayLength, string algorithmType)
+    public static void SaveResultsToCSV(double executionTime, long arrayLength, string algorithmType)
     {
         string filepath = String.Empty;
         
@@ -18,8 +18,7 @@ public class SaveResults
                     writer.WriteLine("Number of Elements, Execution Time (ms)");
                 }
                 
-                // Tvungen att byta ut kommatecknet mot punkt så att det fungerar med CSV-filen.
-                writer.WriteLine(arrayLength + "," + executionTime.ToString().Replace(",", "."));
+                writer.WriteLine(arrayLength + "," + executionTime);
                 
             }
         }
@@ -35,8 +34,7 @@ public class SaveResults
                     writer.WriteLine("Number of Elements, Execution Time (ms), Algorithm");
                 }
                 
-                // Tvungen att byta ut kommatecknet mot punkt så att det fungerar med CSV-filen.
-                writer.WriteLine($"{arrayLength}, {executionTime.ToString().Replace(",", ".")}, {algorithmType}");
+                writer.WriteLine($"{arrayLength}, {executionTime}, {algorithmType}");
                 
             }
         }
