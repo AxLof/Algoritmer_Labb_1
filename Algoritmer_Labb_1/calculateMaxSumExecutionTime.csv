@@ -1,0 +1,9 @@
+Number of Elements, Execution Time (ms), Algorithm
+100, 0.1538, CalculateMaxSumV1
+1000, 3.9982, CalculateMaxSumV1
+10000, 461.5327, CalculateMaxSumV1
+100000, 46695.2042, CalculateMaxSumV1
+100, 0.0813, CalculateMaxSumV2
+1000, 0.002, CalculateMaxSumV2
+10000, 0.0189, CalculateMaxSumV2
+100000, 0.1851, CalculateMaxSumV2

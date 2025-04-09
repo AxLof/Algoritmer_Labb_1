@@ -1,0 +1,25 @@
+# Build output
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# NuGet
+project.assets.json
+project.nuget.cache
+*.nupkg
+*.snupkg
+
+# User-specific
+*.user
+*.suo
+
+# OS-specifika filer
+.DS_Store
+Thumbs.db
+

@@ -2,7 +2,7 @@
 
 for (int i = 100; i < 1000000000; i*=10)
 {
-    NumberCounter.TestCountNumber(5, i);
+    NumberCounter.TestFindDuplicates(5, i);
 }
 
 for (int i = 100; i < 1000000; i*=10)
