@@ -2,6 +2,7 @@ namespace Algoritmer_Labb_1;
 
 public class NumberGenerator
 {
+    // Funktion som genererar en array med slumpmässiga tal
     public static int[] GenerateRandomNumbers(long length, int startRange, int endRange)
     {
         int[] newArray = new int[length];
