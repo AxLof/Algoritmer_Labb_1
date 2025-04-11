@@ -14,8 +14,7 @@ public class CalculateMaxSum
         {
             foreach (int secondNumber in numbers)
             {
-                // Använder absolutbelopp "Abs()" för att även räkna med negativa nummer
-                if (largestSum < int.Abs(firstNumber - secondNumber))
+                if (largestSum < firstNumber - secondNumber)
                 {
                     largestSum = int.Abs(firstNumber - secondNumber);
                 }
